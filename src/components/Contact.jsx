@@ -14,7 +14,7 @@ const Contact = () => {
     setLoading(true);
     try {
       const { data } = await axios.post(
-        "https://gymsite-backend-for-render-1.onrender.com",
+        "https://gym-webstite-with-email-functionality.onrender.com",
         {
           name,
           email,
